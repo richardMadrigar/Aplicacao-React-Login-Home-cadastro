@@ -1,0 +1,84 @@
+.container__login{
+  font-family: 'Work Sans';
+
+  margin: 0 auto;
+  width: 400px;  
+ } 
+
+.logo__login{  
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+  margin-top: 8rem;
+}
+
+.h1__login{
+  text-align: center;
+  color: rgba(54, 54, 54, 0.904);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+
+/* Inputs */
+.fieldset__login{
+  border: none;
+}
+.input__container__login input{
+  width: 100%;
+
+  margin: 5px 0;
+  padding: 10px 5px;
+
+  font-size: .8rem;
+  font-weight: 600;
+  color: rgba(100, 100, 100, 0.993);
+  
+  border: none;
+  outline: none;  
+  border-bottom: 1px solid rgba(235, 237, 242, 0.8);
+}
+
+
+.input__check__cadastro{
+  display: flex;
+  align-items: center;
+}
+.input__check__cadastro p {
+  margin-left: 5px;
+  font-size: .8rem;
+}
+.input__check__cadastro input{
+  cursor: pointer;
+}
+.input__check__cadastro a{
+  text-decoration: none;
+  color: rgb(99, 99, 252);
+}
+.input__check__cadastro a:hover{
+  color: blue;
+}
+
+
+/* Buttons */
+.button__container__cadastro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 1rem 0 5rem;
+}
+.button__cadastro__homePage{
+  margin-bottom: 1rem;
+}
+
+.button__cancelar__homePage{
+  background-color: rgb(255, 93, 93);
+  opacity: .7;
+}
+.button__cancelar__homePage:hover{
+  background-color: rgb(252, 76, 76);
+  opacity: 1;
+  transition: 0.5s;
+}

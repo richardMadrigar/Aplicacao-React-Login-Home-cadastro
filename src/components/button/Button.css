@@ -1,0 +1,26 @@
+.button{
+  font-family: 'Work Sans', sans-serif;
+
+  padding: .2rem;
+
+  width: 21rem;
+  height: 46px;
+
+  font-weight: 600;
+  font-size: 1rem;
+
+  cursor: pointer;
+  border-radius: 2rem;
+  border: none;
+
+}
+
+.button:hover{
+  box-shadow:  0 0 .5rem rgb(95, 93, 93);
+}
+
+
+.buttonn:focus {
+  box-shadow:  0 0 .8rem rgba(27, 5, 5, 0.898);
+}
+
