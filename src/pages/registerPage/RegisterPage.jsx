@@ -49,7 +49,6 @@ const Register = () => {
               Cadastre-se
             </Button>
           </Link>
-
           <Link to="/">
             <Button className=' button__cancelar__cadastro' >
               Cancelar
