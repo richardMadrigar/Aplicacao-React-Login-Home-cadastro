@@ -10,7 +10,7 @@
   justify-content: center;
 
   padding: 1rem;
-  margin-top: 2.5rem;
+  margin: 2rem;
 }
 
 .h1__cadastro{
@@ -21,6 +21,7 @@
 }
 
 .p__text__cadastro{
+  margin: 1rem;
   font-size: .75rem;
   font-weight: 600;
   text-align: center;
@@ -31,12 +32,13 @@
 /* Inputs */
 .fieldset__cadastro{
   border: none;
+  margin-bottom: 2rem;
 }
 .input__container__cadastro input{
   width: 100%;
 
   margin: 5px 0;
-  padding: 10px 5px;
+  padding: 10px 5px ;
 
   font-size: .8rem;
   font-weight: 600;
@@ -76,17 +78,14 @@
 
   margin: 1rem 0 5rem;
 }
-.button__cadastro__homePage{
+.button__cadastro__cadastro{
   margin-bottom: 1rem;
 }
 
-.button__cancelar__homePage{
+.button__cancelar__cadastro{
   background-color: rgb(252, 76, 76);
-  color: white;
-  opacity: .7;
+  color: white; 
 }
-.button__cancelar__homePage:hover{
+.button__cancelar__cadastro:hover{
   background-color: rgb(252, 76, 76);
-  transition: 0.5s;
-  opacity: 1;
 }

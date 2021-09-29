@@ -13,14 +13,11 @@
   border-radius: 2rem;
   border: none;
 
+  opacity: .7;  
 }
 
 .button:hover{
   box-shadow:  0 0 .5rem rgb(95, 93, 93);
+  opacity: 1;
+  transition: 0.4s;
 }
-
-
-.buttonn:focus {
-  box-shadow:  0 0 .8rem rgba(27, 5, 5, 0.898);
-}
-

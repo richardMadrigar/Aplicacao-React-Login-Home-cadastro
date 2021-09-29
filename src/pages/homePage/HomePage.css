@@ -6,7 +6,7 @@
 }
 
   
-.logo{
+.logo__homePage{
   margin: 3rem 0 2rem;
   padding: 17rem 0 3rem;
 
@@ -16,7 +16,7 @@
 }
 
 
-.button__container {
+.button__container__homePage {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,18 +25,14 @@
 }
 
 
-.button__cadastro{
+.button__cadastro__homePage{
   margin-bottom: 1rem;
   width: 3rem;  
   
   background-color: rgb(252, 76, 76);
-  color: white;
-  
-  opacity: .9;  
+  color: white;  
 }
 
-.button__cadastro:hover{
+.button__cadastro__homePage:hover{
   background-color: rgba(250, 21, 21, 0.829);
-  opacity: 1;
-  transition: 0.5s;
 }

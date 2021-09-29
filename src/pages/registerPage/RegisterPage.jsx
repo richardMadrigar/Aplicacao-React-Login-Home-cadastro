@@ -4,6 +4,7 @@ import InputMask from "react-input-mask";
 
 import './Register.css'
 
+//imports components
 import Button from '../../components/button/Button'
 import Logo from '../../components/Logo/Logo'
 
@@ -21,12 +22,11 @@ const Register = () => {
         <p className={'p__text__cadastro'}> Entre com seus dados para criar uma conta de coloborador: </p>
 
 
-
         <form action="" className='input__container__cadastro'>
           <fieldset className={'fieldset__cadastro'}>
             <input type="text" placeholder='Nome Completo' required />
             <input type="text" placeholder='E-mail' />
-            <InputMask placeholder='whatsapp' mask=" (99) 99999-9999" />
+            <InputMask placeholder='Whatsapp' mask=" (99) 99999-9999" />
             <InputMask placeholder='Celular' mask=" (99) 99999-9999" />
             <InputMask  placeholder='RG' mask="99.999.999-9" />
             <InputMask  placeholder='CPF'  mask="999.999.999.-99"  />
@@ -44,13 +44,13 @@ const Register = () => {
 
         <div className="button__container__cadastro">
           <Link to="/account">
-            <Button className='button__cadastro__homePage' style={{}}>
+            <Button className='button__cadastro__cadastro' >
               Cadastre-se
             </Button>
           </Link>
 
           <Link to="/">
-            <Button className=' button__cancelar__homePage' style={{}}>
+            <Button className=' button__cancelar__cadastro' >
               Cancelar
             </Button>
           </Link>
