@@ -6,7 +6,7 @@ import './LoginPage.css'
 
 //imports components
 import Logo from '../../components/Logo/Logo'
-import Button from '../../components/button/Button'
+import Button from '../../components/Button/Button'
 
 const LoginPage = (props) => {
 
