@@ -6,20 +6,18 @@
  } 
 
 .logo__login{  
+  margin: 17vh 0 0;    
   display: flex;
   justify-content: center;
-
-  padding: 1rem;
-  margin-top: 9.6rem;
 }
 
 .h1__login{
   text-align: center;
 
-  margin: 2rem;
+  margin: 1.5rem;
 
   color: rgba(54, 54, 54, 0.904);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -72,23 +70,59 @@
 }
 
 
-
 /* Buttons */
 .button__container__login{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
-  margin: 1rem 0 5rem;
+  margin: 0 0 10vh ;
 }
 .button__cadastro__login{
   margin-bottom: 1rem;
+
+  height: 2.9rem;
+  width: 23rem;  
 }
 
 .button__cancelar__login{
   background-color: rgb(255, 93, 93);
-  color: white;    
+  color: white;   
+  
+  height: 2.9rem;
+  width: 23rem;  
 }
 .button__cancelar__login:hover{
   background-color: rgb(252, 76, 76);  
 }
+
+
+
+
+/* -------RESPONSIVE -----------  */
+@media (max-width: 400px) {  
+  .container__login{  
+    width: 300px; 
+    padding: 30px;
+    margin: 0;
+  }
+  .input__check__login__container{
+    margin: 0;
+  }
+  .logo__login{  
+    margin: 5vh 0 0;    
+  }
+
+
+  .button__container__login{
+    margin: 0 auto;
+    background-color: red;
+  }
+  .button__cadastro__login{
+    width: 16rem;
+  }
+  .button__cancelar__login{
+    width: 16rem;
+  }
+}
+
