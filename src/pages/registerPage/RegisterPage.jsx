@@ -16,6 +16,7 @@ const Register = () => {
 
         <div className={'logo__cadastro'}>
           <Logo />
+          
         </div>
 
         <h1 className="h1__cadastro"> Cadastre-se </h1>
