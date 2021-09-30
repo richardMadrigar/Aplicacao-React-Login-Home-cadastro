@@ -104,10 +104,16 @@
   .container__cadastro {  
     width: 300px; 
   }
-  .logo__homePage{
-    margin-top: 20vh;
+
+  .input__check__cadastro{
+    display: flex;
+    justify-content: center;
   }
 
+
+  .button__container__cadastro{
+    align-items: center;
+  }
   .button__cadastro__cadastro{
     width: 16rem;
   }

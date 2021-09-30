@@ -112,9 +112,8 @@
     margin: 5vh 0 0;    
   }
 
-
   .button__container__login{
-    margin: 0 auto;
+    align-items: center;
   }
   .button__cadastro__login{
     width: 16rem;
