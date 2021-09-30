@@ -5,7 +5,7 @@ import InputMask from "react-input-mask";
 import './Register.css'
 
 //imports components
-import Button from '../../components/Button'
+import Button from '../../components/Button/Button'
 import Logo from '../../components/Logo/Logo'
 
 
