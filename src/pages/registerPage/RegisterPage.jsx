@@ -29,8 +29,8 @@ const Register = () => {
             <input type="text" placeholder='E-mail' />
             <InputMask placeholder='Whatsapp' mask=" (99) 99999-9999" />
             <InputMask placeholder='Celular' mask=" (99) 99999-9999" />
-            <InputMask  placeholder='RG' mask="99.999.999-9" />
-            <InputMask  placeholder='CPF'  mask="999.999.999.-99"  />
+            <InputMask placeholder='RG' mask="99.999.999-9" />
+            <InputMask placeholder='CPF' mask="999.999.999.-99" />
             <input type="password" placeholder='Senha' />
             <input type="password" placeholder='Confirmar Senha' />
           </fieldset>

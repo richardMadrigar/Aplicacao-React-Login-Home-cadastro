@@ -1,29 +1,28 @@
-.container__homePage{
+ .container__homePage{
   margin: 0 auto;
   width: 400px;  
+  
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;  
 }
 
   
-.logo__homePage{
-  margin: 3rem 0 2rem;
-  padding: 17rem 0 3rem;
-
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;  
+.logo__homePage{ 
+    margin: 32vh 0 30px;    
+    display: flex;
+    justify-content: center;
 }
 
 
+
+/* Button */
 .button__container__homePage {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  padding-bottom: 15rem;
+  
+  margin-bottom: 10rem;
 }
-
 
 .button__cadastro__homePage{
   margin-bottom: 1rem;
@@ -35,4 +34,4 @@
 
 .button__cadastro__homePage:hover{
   background-color: rgba(250, 21, 21, 0.829);
-}
+} 
