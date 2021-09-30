@@ -3,9 +3,8 @@ import './HomePage.css'
 import { Link } from "react-router-dom";
 
 //imports components
+import Button from '../../components/button/Button.jsx'
 import Logo from '../../components/Logo/Logo'
-import Button from '../../components/Button/Button'
-
 
 const Home = (props) => {
 

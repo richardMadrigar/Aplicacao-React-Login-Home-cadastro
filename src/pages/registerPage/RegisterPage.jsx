@@ -5,7 +5,7 @@ import InputMask from "react-input-mask";
 import './Register.css'
 
 //imports components
-import Button from '../../components/Button/Button'
+import Button from '../../components/button/Button'
 import Logo from '../../components/Logo/Logo'
 
 
@@ -16,7 +16,7 @@ const Register = () => {
 
         <div className={'logo__cadastro'}>
           <Logo />
-          
+
         </div>
 
         <h1 className="h1__cadastro"> Cadastre-se </h1>
