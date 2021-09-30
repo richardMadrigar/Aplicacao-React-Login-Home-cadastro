@@ -104,7 +104,6 @@
   .container__login{  
     width: 300px; 
     padding: 30px;
-    margin: 0;
   }
   .input__check__login__container{
     margin: 0;
@@ -116,7 +115,6 @@
 
   .button__container__login{
     margin: 0 auto;
-    background-color: red;
   }
   .button__cadastro__login{
     width: 16rem;
