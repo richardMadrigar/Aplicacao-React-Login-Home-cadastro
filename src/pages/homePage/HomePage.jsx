@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 //imports components
 import Logo from '../../components/Logo/Logo'
-import Button from '../../components/Button/Button'
+import Button from '../../components/Button'
 
 
 const Home = (props) => {
