@@ -15,6 +15,7 @@
 
 .h1__cadastro{
   text-align: center;
+
   color: rgba(54, 54, 54, 0.904);
   font-size: 1.7rem;
   font-weight: 600;
@@ -49,7 +50,6 @@
   border-bottom: 1px solid rgba(235, 237, 242, 0.8);
 }
 
-
 .input__check__cadastro{
   display: flex;
   align-items: center;
@@ -73,18 +73,24 @@
 /* Buttons */
 .button__container__cadastro{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 
   margin: 1rem 0 5rem;
 }
 .button__cadastro__cadastro{
   margin-bottom: 1rem;
+
+  height: 2.9rem;
+  width: 23rem;  
 }
 
 .button__cancelar__cadastro{
   background-color: rgb(252, 76, 76);
   color: white; 
+
+  height: 2.9rem;
+  width: 23rem;  
 }
 .button__cancelar__cadastro:hover{
   background-color: rgb(252, 76, 76);
@@ -93,3 +99,19 @@
 
 
 
+/* -------RESPONSIVE -----------  */
+@media (max-width: 400px) {  
+  .container__cadastro {  
+    width: 300px; 
+  }
+  .logo__homePage{
+    margin-top: 20vh;
+  }
+
+  .button__cadastro__cadastro{
+    width: 16rem;
+  }
+  .button__cancelar__cadastro{
+    width: 16rem;
+  }
+}
