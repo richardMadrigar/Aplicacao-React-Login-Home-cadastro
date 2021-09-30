@@ -50,6 +50,7 @@
 @media (max-width: 400px) {  
   .container__homePage {  
     width: 300px; 
+    background-color: red;
 
   }
   .logo__homePage{
